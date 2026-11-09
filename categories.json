@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "slug": "wigs",
+      "num": "01",
+      "name_en": "Human Hair Wigs",
+      "name_zh": "真人发头套",
+      "subtitle_en": "Lace front, full lace & glueless wigs",
+      "subtitle_zh": "前额蕾丝、全蕾丝与免胶头套",
+      "description_en": "Ready-to-wear wigs built on lace front, full lace and glueless bases, in every texture and length your market asks for.",
+      "description_zh": "涵盖前额蕾丝、全蕾丝与免胶底，纹理与长度可按目标市场灵活配置。",
+      "intro_en": "Our wig line covers lace front, full lace, 360 and glueless constructions. Every unit is hand-ventilated in our own workshop with cuticle-aligned human hair, then checked for hairline, density and shedding before packing.",
+      "intro_zh": "头套系列包含前额蕾丝、全蕾丝、360 与免胶结构。全部在自有车间手工钩织，采用毛鳞片顺向真人发，出货前逐顶检查发际线、密度与掉发量。",
+      "image": "/images/placeholder-category-wigs.svg",
+      "order": 1
+    },
+    {
+      "slug": "closures",
+      "num": "02",
+      "name_en": "Lace Closures",
+      "name_zh": "蕾丝发块",
+      "subtitle_en": "4x4, 5x5, 6x6 & HD lace closures",
+      "subtitle_zh": "4×4、5×5、6×6 与 HD 蕾丝发块",
+      "description_en": "Small-lace pieces with a natural parting, made to match our wefts and bundles exactly.",
+      "description_zh": "小面积蕾丝补发片，分缝自然，可与同批号发帘完美配套。",
+      "intro_en": "Closures are produced from the same hair batch as our wefts, so texture, colour and lustre stay consistent across a full install. Available in transparent, HD and silk-base lace with free, middle or three-part parting.",
+      "intro_zh": "发块与发帘取自同一批发丝，整套安装的纹理、色泽与光泽保持一致。可选透明蕾丝、HD 蕾丝与丝网底，支持自由分缝、中分与三七分。",
+      "image": "/images/placeholder-category-closures.svg",
+      "order": 2
+    },
+    {
+      "slug": "frontals",
+      "num": "03",
+      "name_en": "Lace Frontals",
+      "name_zh": "蕾丝发套",
+      "subtitle_en": "13x4, 13x6 & 360 ear-to-ear frontals",
+      "subtitle_zh": "13×4、13×6 与 360 全耳到耳发套",
+      "description_en": "Ear-to-ear hairlines with pre-plucked edges for a seamless, natural-looking install.",
+      "description_zh": "耳到耳发际线，边缘预拔处理，安装后过渡自然。",
+      "intro_en": "Our frontals are ventilated strand by strand on soft HD or transparent lace, with a pre-plucked hairline and baby hairs on request. They pair with our bundles for a complete, consistent install.",
+      "intro_zh": "发套在柔软 HD 或透明蕾丝上逐丝钩织，发际线预拔，可按需求加胎毛。与同批次发束搭配即可完成整套安装，效果统一。",
+      "image": "/images/placeholder-category-frontals.svg",
+      "order": 3
+    },
+    {
+      "slug": "extensions",
+      "num": "04",
+      "name_en": "Hair Extensions",
+      "name_zh": "接发",
+      "subtitle_en": "Tape-in, keratin bond, clip-in & nano ring",
+      "subtitle_zh": "无痕胶带、角质蛋白接发、卡扣与纳米环",
+      "description_en": "Professional attachment systems for salons, supplied in consistent lengths and shades.",
+      "description_zh": "面向沙龙的专业接发系统，长度与色号稳定、批次一致。",
+      "intro_en": "From tape-ins and keratin bonds to clip-ins and nano rings, our extension range is built for salon professionals who need predictable grams per piece, reliable adhesive and repeatable shades across reorders.",
+      "intro_zh": "涵盖无痕胶带、角质蛋白接发、卡扣与纳米环。单束克重稳定、胶头可靠、色号可复购，适合专业沙龙长期使用。",
+      "image": "/images/placeholder-category-extensions.svg",
+      "order": 4
+    },
+    {
+      "slug": "wefts",
+      "num": "05",
+      "name_en": "Hair Wefts",
+      "name_zh": "发帘",
+      "subtitle_en": "Machine, hand-tied & genius wefts",
+      "subtitle_zh": "机制、手工与无痕发帘",
+      "description_en": "Double-drawn bundles with minimal shedding - the foundation of our wholesale business.",
+      "description_zh": "双抽工艺发束，掉发少，是批发业务的基础产品。",
+      "intro_en": "Wefts are our core product. Hair is sorted, double-drawn and sewn in our own workshop, with cuticles kept in one direction. Machine wefts, hand-tied wefts and ultra-thin genius wefts are available in matching textures and colours.",
+      "intro_zh": "发帘是德宇的核心产品。发丝经分拣、双抽、顺鳞后在自有车间缝制，提供机制、手工与超薄无痕三类，纹理与色号可整套配套。",
+      "image": "/images/placeholder-category-wefts.svg",
+      "order": 5
+    },
+    {
+      "slug": "ponytails",
+      "num": "06",
+      "name_en": "Ponytails",
+      "name_zh": "马尾",
+      "subtitle_en": "Wrap-around, drawstring & clip-in ponytails",
+      "subtitle_zh": "缠绕式、抽绳式与抓夹马尾",
+      "description_en": "Fast, secure attachment pieces in straight, wavy and curly textures.",
+      "description_zh": "佩戴快捷、固定牢靠，直发、波浪与卷发纹理齐备。",
+      "intro_en": "Our ponytail range is designed for quick, secure everyday wear. Each piece is made with the same graded human hair as our wefts and finished with a discreet wrap, drawstring or claw-clip attachment.",
+      "intro_zh": "马尾系列强调快速佩戴与稳固贴合，采用与发帘同等级的真人发，配缠绕式、抽绳式或抓夹式隐形固定结构。",
+      "image": "/images/placeholder-category-ponytails.svg",
+      "order": 6
+    }
+  ]
+}

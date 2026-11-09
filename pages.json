@@ -1,0 +1,347 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow_en": "SHANDONG DEYU  ·  HUMAN HAIR FACTORY",
+      "eyebrow_zh": "山东德宇  ·  真人发制品工厂",
+      "title_en": "A human hair factory you can build your brand on.",
+      "title_zh": "可以托付品牌的真人发工厂",
+      "body_en": "From raw hair sourcing to finished wigs, closures and extensions - produced under one roof in Shandong, China, and supplied to distributors, salons and hair brands worldwide.",
+      "body_zh": "从原料采集到头套、发块、接发成品，全部在中国山东自有车间完成，长期为全球经销商、沙龙与发制品品牌供货。",
+      "image": "/images/placeholder-hero.svg"
+    },
+    "stats": {
+      "items": [
+        { "value": "20+", "label_en": "Years in human hair manufacturing", "label_zh": "真人发制造经验" },
+        { "value": "40+", "label_en": "Countries & regions served", "label_zh": "服务国家与地区" },
+        { "value": "300+", "label_en": "Skilled workshop workers", "label_zh": "车间熟练技工" },
+        { "value": "100%", "label_en": "Human hair, cuticle intact", "label_zh": "真人发 · 毛鳞片完整" }
+      ]
+    },
+    "intro": {
+      "eyebrow_en": "WHO WE ARE",
+      "eyebrow_zh": "关于德宇",
+      "title_en": "We make the hair. We do not resell it.",
+      "title_zh": "自己生产，不做转手贸易",
+      "body_en": "Deyu is a manufacturer, not a trading company. Raw hair is bought, sorted, cleaned, wefted and finished by our own team in Juancheng, Shandong - one of China's longest-established human hair producing regions. That control is why our specifications stay consistent from the first sample to the tenth reorder.",
+      "body_zh": "德宇是生产型工厂，不是贸易商。原料采购、分拣、清洗、缝帘到成品整理，均由山东鄄城自有团队完成——这里是中国最成熟的真人发产区之一。正因为全流程自控，从首次打样到第十次返单，规格始终一致。",
+      "image": "/images/placeholder-factory-2.svg"
+    },
+    "categories": {
+      "eyebrow_en": "PRODUCT CENTER",
+      "eyebrow_zh": "产品中心",
+      "title_en": "Six collections, one workshop.",
+      "title_zh": "六大系列，出自同一车间",
+      "body_en": "Choose a collection to browse the full range. Every item is made with 100% human hair.",
+      "body_zh": "选择系列浏览完整产品目录，全部产品采用 100% 真人发。"
+    },
+    "advantages": {
+      "eyebrow_en": "WHY DEYU",
+      "eyebrow_zh": "工厂优势",
+      "title_en": "Made properly, from the first strand.",
+      "title_zh": "从第一缕发丝开始，就把事情做对",
+      "body_en": "Four things we refuse to compromise on, because our customers have to put their own name on the product.",
+      "body_zh": "四件我们不肯将就的事，因为客户会把自己的品牌印在产品上。",
+      "items": [
+        {
+          "num": "01",
+          "title_en": "Direct raw hair sourcing",
+          "title_zh": "原料直采",
+          "text_en": "We buy and grade raw hair ourselves, so origin, cuticle direction and length ratio are known before production starts.",
+          "text_zh": "自行采购并分级原料，投产前即明确发源、毛鳞片方向与长度配比。"
+        },
+        {
+          "num": "02",
+          "title_en": "One workshop, one standard",
+          "title_zh": "同一车间，同一标准",
+          "text_en": "Sorting, wefting, ventilating and finishing all happen in-house, on the same production lines.",
+          "text_zh": "分拣、缝帘、钩织与后整均在自有车间同一条产线完成。"
+        },
+        {
+          "num": "03",
+          "title_en": "Specs you can reorder",
+          "title_zh": "规格可复购",
+          "text_en": "Texture, grams, density and shade are recorded per batch, so a reorder matches the sample you approved.",
+          "text_zh": "每批次记录纹理、克重、密度与色号，返单与确认样保持一致。"
+        },
+        {
+          "num": "04",
+          "title_en": "OEM & private label",
+          "title_zh": "支持 OEM 与贴牌",
+          "text_en": "Custom lengths, colours, lace types, packaging and labelling for brands and distributors.",
+          "text_zh": "可为品牌与经销商定制长度、色号、网底、包装与标签。"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow_en": "HOW WE WORK",
+      "eyebrow_zh": "生产工艺",
+      "title_en": "From raw hair to finished piece",
+      "title_zh": "从原料到成品",
+      "body_en": "Six stages, all under our own roof. The same process is shown on our Factory page.",
+      "body_zh": "六道工序，全部在厂内完成。工厂页展示的是同一套流程。",
+      "items": [
+        {
+          "num": "01",
+          "title_en": "Hair Collection",
+          "title_zh": "原料采集",
+          "text_en": "Raw hair is sourced by origin and purchased in single-direction bundles.",
+          "text_zh": "按发源采购原发，保证单方向顺发成束。"
+        },
+        {
+          "num": "02",
+          "title_en": "Sorting & Grading",
+          "title_zh": "分拣分级",
+          "text_en": "Length, thickness and cuticle condition are graded by hand before any processing.",
+          "text_zh": "人工按长度、粗细与毛鳞片状态分级后，再进入加工环节。"
+        },
+        {
+          "num": "03",
+          "title_en": "Cleaning & Care",
+          "title_zh": "清洗养护",
+          "text_en": "Gentle cleaning removes impurities while keeping the cuticle intact.",
+          "text_zh": "温和清洗去除杂质，同时保留完整毛鳞片。"
+        },
+        {
+          "num": "04",
+          "title_en": "Wefting & Ventilating",
+          "title_zh": "缝制与钩织",
+          "text_en": "Wefts, closures and wigs are constructed by experienced hands on our own lines.",
+          "text_zh": "发帘、发块与头套由熟练技工在自有产线制作。"
+        },
+        {
+          "num": "05",
+          "title_en": "Quality Control",
+          "title_zh": "成品质检",
+          "text_en": "Each piece is checked for shedding, tangling, texture hold and net weight.",
+          "text_zh": "逐件检查掉发、打结、卷度保持度与净重。"
+        },
+        {
+          "num": "06",
+          "title_en": "Pack & Dispatch",
+          "title_zh": "包装发运",
+          "text_en": "Neutral or private-label packing, then shipped to your nominated forwarder.",
+          "text_zh": "中性包装或贴牌包装，按指定货代发运。"
+        }
+      ]
+    },
+    "materials": {
+      "eyebrow_en": "RAW MATERIAL",
+      "eyebrow_zh": "发源选择",
+      "title_en": "Three origins, one standard.",
+      "title_zh": "三种发源，一个标准",
+      "body_en": "We work with three well-established hair origins. Each has its own character, and all are graded to the same in-house specification.",
+      "body_zh": "我们长期使用三类成熟发源，各自特点不同，但均按厂内同一标准分级。",
+      "items": [
+        {
+          "name_en": "Burmese Hair",
+          "name_zh": "缅甸发",
+          "text_en": "Naturally full with a soft wave and a strong strand. A favourite for voluminous textures and curly patterns.",
+          "text_zh": "发量丰盈、带自然柔波、发丝强韧，适合蓬松纹理与卷度产品。",
+          "image": "/images/placeholder-material-1.svg"
+        },
+        {
+          "name_en": "Yunnan Hair",
+          "name_zh": "云南发",
+          "text_en": "Fine, silky and close to East Asian hair types; takes colour evenly and stays light on the head.",
+          "text_zh": "发丝细软顺滑，贴近东亚发质，上色均匀、佩戴轻盈。",
+          "image": "/images/placeholder-material-2.svg"
+        },
+        {
+          "name_en": "Vietnamese Hair",
+          "name_zh": "越南发",
+          "text_en": "Thick, straight and durable with a healthy lustre; ideal for bone straight and double-drawn wefts.",
+          "text_zh": "粗壮直顺、耐用有光泽，适合骨直与双抽发帘。",
+          "image": "/images/placeholder-material-3.svg"
+        }
+      ]
+    },
+    "factory_teaser": {
+      "eyebrow_en": "INSIDE THE FACTORY",
+      "eyebrow_zh": "工厂实景",
+      "title_en": "See where the work actually happens.",
+      "title_zh": "看看产品是在哪里做出来的",
+      "body_en": "Sorting tables, wefting lines, lace ventilating benches and the QC room - we would rather show you the workshop than describe it.",
+      "body_zh": "分拣台、缝帘线、钩织工位与质检室——与其描述，不如直接带你看车间。",
+      "image": "/images/placeholder-factory-1.svg"
+    },
+    "cta_band": {
+      "eyebrow_en": "WORK WITH US",
+      "eyebrow_zh": "合作洽谈",
+      "title_en": "Looking for a manufacturing partner you can rely on?",
+      "title_zh": "想找一个长期可靠的工厂伙伴？",
+      "body_en": "Reach the factory team directly by email or WhatsApp. No forms, no checkout - just a straightforward conversation about your specifications.",
+      "body_zh": "通过邮箱或 WhatsApp 直接联系工厂团队。没有表单、没有下单入口，只谈规格与合作细节。"
+    }
+  },
+  "products_hub": {
+    "eyebrow_en": "PRODUCT CENTER",
+    "eyebrow_zh": "产品中心",
+    "title_en": "Collections",
+    "title_zh": "产品中心",
+    "body_en": "Six product families, all made in our Shandong workshop with 100% human hair. Select a collection to view the full catalogue.",
+    "body_zh": "六大产品系列，均产自山东自有车间，采用 100% 真人发。请选择系列查看完整目录。"
+  },
+  "factory": {
+    "hero": {
+      "eyebrow_en": "THE FACTORY",
+      "eyebrow_zh": "工厂实力",
+      "title_en": "Inside our workshop",
+      "title_zh": "走进德宇车间",
+      "body_en": "A look at the people, the lines and the checks behind every piece we ship.",
+      "body_zh": "每一件出货产品背后的人、产线与检验环节，都在这里。"
+    },
+    "profile_en": "Shandong Deyu Hair Products Factory is located in Juancheng County, Heze, a region with decades of human hair craftsmanship. Our workshop brings raw hair sorting, cleaning, wefting, lace ventilating, finishing and quality control together in one place.\n\nKeeping every stage in-house is a deliberate choice. It lets us record the origin and grade of each batch, hold texture and colour consistent across reorders, and solve a specification question on the production floor instead of over a long email chain.",
+    "profile_zh": "山东德宇发制品厂位于菏泽市鄄城县，这里拥有数十年的真人发加工传统。我们的车间把原料分拣、清洗、缝帘、蕾丝钩织、后整与质检集中在同一厂区完成。\n\n全流程自有是刻意的选择：每批原料的发源与等级可追溯，纹理和色号在返单时保持一致，规格问题能在产线上当场解决，而不必来回发邮件确认。",
+    "stats": {
+      "items": [
+        { "value": "6,000 m2", "label_en": "Workshop area", "label_zh": "车间面积" },
+        { "value": "30,000", "label_en": "Pieces per month", "label_zh": "月产能（件）" },
+        { "value": "8", "label_en": "Production lines", "label_zh": "生产线" },
+        { "value": "5", "label_en": "QC checkpoints", "label_zh": "质检节点" }
+      ]
+    },
+    "environment": {
+      "eyebrow_en": "FACTORY ENVIRONMENT",
+      "eyebrow_zh": "工厂环境",
+      "title_en": "A clean, orderly place to make hair",
+      "title_zh": "整洁有序的生产现场",
+      "body_en": "Good hair starts with a controlled workspace: separated raw material storage, dedicated washing and drying areas, and well-lit benches for sorting and ventilation.",
+      "body_zh": "好发丝始于可控的现场：原料分区存放、独立洗护晾晒区，以及光线充足的分拣与钩织工位。",
+      "images": [
+        { "image": "/images/placeholder-factory-1.svg", "caption_en": "Factory exterior", "caption_zh": "厂区外景" },
+        { "image": "/images/placeholder-factory-2.svg", "caption_en": "Raw material storage", "caption_zh": "原料仓储区" },
+        { "image": "/images/placeholder-factory-3.svg", "caption_en": "Washing & drying area", "caption_zh": "清洗晾晒区" },
+        { "image": "/images/placeholder-factory-4.svg", "caption_en": "Finished goods area", "caption_zh": "成品整理区" }
+      ]
+    },
+    "workshop": {
+      "eyebrow_en": "ON THE FLOOR",
+      "eyebrow_zh": "车间实拍",
+      "title_en": "Workshop, as it really is",
+      "title_zh": "车间实拍",
+      "body_en": "Unstaged photographs from the production floor. Replace these placeholders with your own workshop shots in the CMS at any time.",
+      "body_zh": "来自产线的真实记录。您可随时在后台上传车间实拍照片替换以下占位图。",
+      "images": [
+        { "image": "/images/placeholder-factory-5.svg", "caption_en": "Sorting by length", "caption_zh": "按长度分拣" },
+        { "image": "/images/placeholder-factory-6.svg", "caption_en": "Wefting line", "caption_zh": "缝帘产线" },
+        { "image": "/images/placeholder-factory-7.svg", "caption_en": "Lace ventilating bench", "caption_zh": "蕾丝钩织工位" },
+        { "image": "/images/placeholder-factory-8.svg", "caption_en": "Quality control room", "caption_zh": "成品质检室" },
+        { "image": "/images/placeholder-factory-3.svg", "caption_en": "Texture setting", "caption_zh": "卷度定型" },
+        { "image": "/images/placeholder-factory-4.svg", "caption_en": "Packing", "caption_zh": "包装工序" }
+      ]
+    },
+    "quality": {
+      "eyebrow_en": "QUALITY CONTROL",
+      "eyebrow_zh": "品质管理",
+      "title_en": "Checked before it leaves",
+      "title_zh": "出厂前逐件检查",
+      "body_en": "A finished piece is only released after it passes the same checks, batch after batch.",
+      "body_zh": "每批成品都通过同一套检验后才可放行。",
+      "items": [
+        { "num": "01", "title_en": "Shedding & tangling", "title_zh": "掉发与打结", "text_en": "Comb-through and wash tests to confirm the weft and cuticle direction hold.", "text_zh": "通过梳理与水洗测试，确认缝线与毛鳞片方向稳定。" },
+        { "num": "02", "title_en": "Texture & weight", "title_zh": "卷度与克重", "text_en": "Pattern retention after washing, and net weight against the recorded specification.", "text_zh": "洗后卷度保持度，以及净重与记录规格的一致性。" },
+        { "num": "03", "title_en": "Appearance", "title_zh": "外观细节", "text_en": "Hairline, lace softness, colour match and overall finish under daylight lamps.", "text_zh": "在标准光源下检查发际线、蕾丝柔软度、色号匹配与整体做工。" }
+      ]
+    },
+    "cta_band": {
+      "eyebrow_en": "VISIT OR WRITE",
+      "eyebrow_zh": "到厂或来信",
+      "title_en": "The workshop is open to partners",
+      "title_zh": "欢迎合作伙伴到厂看货",
+      "body_en": "Factory visits are welcome by appointment. If you are overseas, we can walk you through the production line on a video call.",
+      "body_zh": "预约后欢迎到厂参观；海外客户可通过视频连线查看产线。"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow_en": "ABOUT DY DEYU",
+      "eyebrow_zh": "关于我们",
+      "title_en": "A Shandong factory with a long memory for hair",
+      "title_zh": "一家懂头发的山东工厂",
+      "body_en": "DY Deyu is the export name of Shandong Deyu Hair Products Factory. We manufacture human hair wigs, lace pieces, extensions and wefts for professional buyers.",
+      "body_zh": "DY 德宇是山东德宇发制品厂的对外品牌，为专业采购方生产真人发头套、蕾丝补发片、接发与发帘。"
+    },
+    "story_en": "Deyu began as a small workshop sorting and sewing raw human hair for local traders. Over two decades it grew into a full-process factory supplying wig brands, distributors and salon groups in more than forty markets.\n\nWhat has not changed is the way we work: buy the hair ourselves, keep the cuticle in one direction, record every batch, and finish the product in our own workshop. We are a manufacturing partner, not a catalogue. Most of our business comes from customers who reorder the same specification year after year.\n\nOur product range now covers six collections - wigs, lace closures, lace frontals, extensions, wefts and ponytails - with Burmese, Yunnan and Vietnamese hair as the three main origins.",
+    "story_zh": "德宇起步于一间替本地商户分拣、缝制原发的小作坊。二十余年间，逐步发展为全流程工厂，为四十多个市场的假发品牌、经销商与沙龙集团供货。\n\n不变的是做事方式：自己采购原发，保持毛鳞片顺向，逐批记录，成品在自有车间完成。我们是生产伙伴，不是一本产品目录。大部分业务来自年复一年返单同一规格的老客户。\n\n如今产品覆盖六大系列——真人发头套、蕾丝发块、蕾丝发套、接发、发帘与马尾，主要使用缅甸发、云南发与越南发三类发源。",
+    "image": "/images/placeholder-factory-3.svg",
+    "milestones": {
+      "eyebrow_en": "OUR TIMELINE",
+      "eyebrow_zh": "发展历程",
+      "title_en": "How we grew",
+      "title_zh": "一路走来",
+      "items": [
+        { "year": "2003", "text_en": "Workshop founded in Juancheng, sorting and sewing raw human hair.", "text_zh": "鄄城作坊成立，从事原发分拣与缝帘。" },
+        { "year": "2010", "text_en": "First direct export orders; weft and bundle production moved in-house.", "text_zh": "开始直接出口，发帘与发束产线收回厂内。" },
+        { "year": "2016", "text_en": "Lace wig line added with a dedicated ventilating team.", "text_zh": "增设蕾丝头套产线与专职钩织团队。" },
+        { "year": "2020", "text_en": "HD and transparent lace range developed for the US and European markets.", "text_zh": "面向欧美市场开发 HD 与透明蕾丝系列。" },
+        { "year": "2024", "text_en": "Workshop expanded; QC separated into an independent checkpoint.", "text_zh": "车间扩建，质检升级为独立节点。" }
+      ]
+    },
+    "advantages": {
+      "eyebrow_en": "WHY PARTNERS STAY",
+      "eyebrow_zh": "合作优势",
+      "title_en": "What a factory partner should give you",
+      "title_zh": "工厂伙伴应该提供什么",
+      "body_en": "Six practical reasons buyers keep their production with us.",
+      "body_zh": "采购方把生产长期放在德宇的六个实际理由。",
+      "items": [
+        { "num": "01", "title_en": "Factory-direct", "title_zh": "工厂直供", "text_en": "You deal with the people who make the product, not a layer of agents.", "text_zh": "直接对接生产方，不经过层层中间商。" },
+        { "num": "02", "title_en": "Traceable material", "title_zh": "原料可追溯", "text_en": "Origin, grade and cuticle direction are recorded against each batch.", "text_zh": "每批记录发源、等级与毛鳞片方向。" },
+        { "num": "03", "title_en": "Consistent reorders", "title_zh": "返单稳定", "text_en": "Texture, weight, density and shade are kept to the approved sample.", "text_zh": "纹理、克重、密度与色号对齐确认样。" },
+        { "num": "04", "title_en": "Full product range", "title_zh": "品类齐全", "text_en": "Six collections that can be matched and shipped as one programme.", "text_zh": "六大系列可配套、可合并发运。" },
+        { "num": "05", "title_en": "Flexible customisation", "title_zh": "柔性定制", "text_en": "Lengths, colours, lace, packaging and private labels built to your brief.", "text_zh": "长度、色号、网底、包装与贴牌按需定制。" },
+        { "num": "06", "title_en": "Straight answers", "title_zh": "沟通直接", "text_en": "Clear specifications, realistic lead times and no surprises after approval.", "text_zh": "规格讲清楚，交期说实话，确认后不临时变卦。" }
+      ]
+    },
+    "values": {
+      "eyebrow_en": "HOW WE WORK",
+      "eyebrow_zh": "做事方式",
+      "title_en": "Three rules on the workshop wall",
+      "title_zh": "车间墙上的三条规矩",
+      "items": [
+        { "num": "01", "title_en": "No shortcuts on material", "title_zh": "原料不将就", "text_en": "If the hair is not right, it does not enter production.", "text_zh": "发丝不达标，就不进产线。" },
+        { "num": "02", "title_en": "A spec is a promise", "title_zh": "规格即承诺", "text_en": "What you approved is exactly what we make again.", "text_zh": "确认过的规格，返单一模一样。" },
+        { "num": "03", "title_en": "Say it plainly", "title_zh": "有话直说", "text_en": "If something cannot be done, you hear it early.", "text_zh": "做不到的，提前讲清楚。" }
+      ]
+    },
+    "cta_band": {
+      "eyebrow_en": "LET US TALK",
+      "eyebrow_zh": "聊聊合作",
+      "title_en": "A good partnership starts with a specification",
+      "title_zh": "好的合作，从一份规格单开始",
+      "body_en": "Send us the collection, texture and length you have in mind. We will tell you plainly what we can make.",
+      "body_zh": "把系列、纹理与长度发给我们，能做什么、怎么做，我们直说。"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow_en": "CONTACT",
+      "eyebrow_zh": "联系我们",
+      "title_en": "Talk to the factory directly",
+      "title_zh": "直接与工厂对话",
+      "body_en": "This site is a product showcase. For specifications, samples or cooperation, write to us or send a WhatsApp message - there is no order form, cart or checkout here.",
+      "body_zh": "本网站仅作产品展示。如需规格、样品或洽谈合作，请通过邮件或 WhatsApp 联系；站内不设询价表单、购物车与下单入口。"
+    },
+    "map_note_en": "Paste a Google Maps embed URL in the CMS to activate the interactive map. Visitors in mainland China may prefer a static map image instead.",
+    "map_note_zh": "在后台填入谷歌地图嵌入链接即可启用交互地图；如主要访客在中国大陆，也可改用静态地图图片。",
+    "prepare": {
+      "eyebrow_en": "BEFORE YOU WRITE",
+      "eyebrow_zh": "沟通前可准备",
+      "title_en": "A few details help us answer faster",
+      "title_zh": "提供这些信息，回复会更快",
+      "items": [
+        { "num": "01", "title_en": "Collection & item codes", "title_zh": "系列与产品编号", "text_en": "The collection you are looking at and any product codes from the catalogue.", "text_zh": "感兴趣的系列，以及目录中看到的产品编号。" },
+        { "num": "02", "title_en": "Specification", "title_zh": "规格要求", "text_en": "Texture, length, colour, density and the quantity you have in mind.", "text_zh": "纹理、长度、颜色、密度与预计数量。" },
+        { "num": "03", "title_en": "Destination", "title_zh": "目的地", "text_en": "Your market and nominated forwarder, so we can talk about packing and lead time.", "text_zh": "目标市场与指定货代，便于确认包装与交期。" }
+      ]
+    },
+    "cta_band": {
+      "eyebrow_en": "DIRECT LINE",
+      "eyebrow_zh": "直达工厂",
+      "title_en": "No forms. Just the factory team.",
+      "title_zh": "没有表单，只有工厂团队",
+      "body_en": "Email or WhatsApp reaches the people who run the production line. We normally reply within one working day.",
+      "body_zh": "邮件与 WhatsApp 由负责产线的团队直接接收，通常一个工作日内回复。"
+    }
+  }
+}

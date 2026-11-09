@@ -1,0 +1,33 @@
+{
+  "brand_en": "DY DEYU",
+  "brand_zh": "DY 德宇",
+  "brand_full_en": "Shandong Deyu Hair Products Factory",
+  "brand_full_zh": "山东德宇发制品厂",
+  "tagline_en": "Human Hair Manufacturer | Shandong, China",
+  "tagline_zh": "真人发制品工厂 | 中国山东",
+  "logo": "/images/logo-dy.svg",
+  "email": "info@deyuhair.com",
+  "whatsapp_display": "+86 153 0000 0000",
+  "whatsapp_number": "8615300000000",
+  "telephone": "+86 530 000 0000",
+  "address_en": "Deyu Industrial Park, Juancheng County, Heze, Shandong Province, P.R. China",
+  "address_zh": "中国山东省菏泽市鄄城县德宇发制品产业园",
+  "hours_en": "Monday - Saturday, 08:30 - 18:00 (GMT+8)",
+  "hours_zh": "周一至周六 08:30 - 18:00（北京时间）",
+  "map_embed_url": "",
+  "map_image": "",
+  "social": [
+    { "platform": "facebook", "url": "https://www.facebook.com/" },
+    { "platform": "instagram", "url": "https://www.instagram.com/" },
+    { "platform": "youtube", "url": "https://www.youtube.com/" },
+    { "platform": "linkedin", "url": "https://www.linkedin.com/" },
+    { "platform": "whatsapp", "url": "https://wa.me/8615300000000" }
+  ],
+  "copyright_en": "DY | Shandong Deyu Hair Products Factory. All rights reserved.",
+  "copyright_zh": "DY | 山东德宇发制品厂 版权所有",
+  "seo_title_en": "DY Deyu | Human Hair Wig & Extension Factory in Shandong, China",
+  "seo_title_zh": "DY 德宇 | 山东真人发假发与接发工厂",
+  "seo_description_en": "Shandong Deyu Hair Products Factory manufactures 100% human hair wigs, lace closures, lace frontals, extensions, wefts and ponytails for distributors, salons and hair brands worldwide.",
+  "seo_description_zh": "山东德宇发制品厂生产 100% 真人发头套、蕾丝发块、蕾丝发套、接发、发帘与马尾，为全球经销商、沙龙及发制品品牌供货。",
+  "site_url": "https://your-domain.com"
+}
