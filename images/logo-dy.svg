@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img">
+<defs>
+
+</defs>
+
+<rect x="8" y="8" width="184" height="184" fill="none" stroke="#B89150" stroke-width="1.6"/>
+<rect x="18" y="18" width="164" height="164" fill="none" stroke="#B89150" stroke-width="0.6" opacity="0.55"/>
+<text x="100" y="128" fill="#B89150" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="400" letter-spacing="2" text-anchor="middle">DY</text>
+
+</svg>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with your own domain after binding it in Netlify.
+Sitemap: https://your-domain.com/sitemap.xml

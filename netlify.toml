@@ -1,0 +1,18 @@
+# DY Deyu - Netlify configuration
+# No build step is required: the repository root IS the publish directory.
+
+[build]
+  publish = "."
+
+# Content edited in Decap CMS is committed to Git; Netlify deploys the new files.
+# Cache-Control: no-store makes CMS edits visible immediately after publish.
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

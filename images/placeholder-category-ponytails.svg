@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img">
+<defs>
+
+<linearGradient id="cb" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#F8F4ED"/>
+  <stop offset="1" stop-color="#EFE7DA"/>
+</linearGradient>
+
+</defs>
+
+<rect width="800" height="1000" fill="url(#cb)"/>
+<rect x="34" y="34" width="732" height="932" fill="none" stroke="#DCCDB6" stroke-width="1"/>
+<rect x="44" y="44" width="712" height="912" fill="none" stroke="#B89150" stroke-width="0.7" opacity="0.45"/>
+<path d="M 72.4 -80.0 C 162.3 280.0, -35.8 660.0, 131.8 1080.0" fill="none" stroke="#5A4031" stroke-width="1.87" opacity="0.17" stroke-linecap="round"/>
+<path d="M 108.3 -80.0 C 176.5 280.0, 38.3 660.0, 171.6 1080.0" fill="none" stroke="#5A4031" stroke-width="1.27" opacity="0.23" stroke-linecap="round"/>
+<path d="M 134.2 -80.0 C 176.8 280.0, 189.4 660.0, 104.3 1080.0" fill="none" stroke="#5A4031" stroke-width="1.43" opacity="0.18" stroke-linecap="round"/>
+<path d="M 151.0 -80.0 C 148.9 280.0, 55.7 660.0, 130.7 1080.0" fill="none" stroke="#5A4031" stroke-width="1.86" opacity="0.19" stroke-linecap="round"/>
+<path d="M 189.3 -80.0 C 85.7 280.0, 242.5 660.0, 135.6 1080.0" fill="none" stroke="#5A4031" stroke-width="1.04" opacity="0.27" stroke-linecap="round"/>
+<path d="M 221.7 -80.0 C 233.6 280.0, 246.2 660.0, 221.2 1080.0" fill="none" stroke="#5A4031" stroke-width="1.35" opacity="0.19" stroke-linecap="round"/>
+<path d="M 241.7 -80.0 C 175.3 280.0, 184.5 660.0, 217.7 1080.0" fill="none" stroke="#5A4031" stroke-width="1.96" opacity="0.19" stroke-linecap="round"/>
+<path d="M 273.2 -80.0 C 221.5 280.0, 190.8 660.0, 317.5 1080.0" fill="none" stroke="#5A4031" stroke-width="2.04" opacity="0.27" stroke-linecap="round"/>
+<path d="M 338.1 -80.0 C 349.3 280.0, 327.6 660.0, 322.6 1080.0" fill="none" stroke="#5A4031" stroke-width="1.65" opacity="0.20" stroke-linecap="round"/>
+<path d="M 352.9 -80.0 C 328.2 280.0, 390.7 660.0, 402.9 1080.0" fill="none" stroke="#5A4031" stroke-width="1.66" opacity="0.18" stroke-linecap="round"/>
+<path d="M 387.7 -80.0 C 439.6 280.0, 396.2 660.0, 329.4 1080.0" fill="none" stroke="#5A4031" stroke-width="0.92" opacity="0.24" stroke-linecap="round"/>
+<path d="M 424.7 -80.0 C 423.6 280.0, 475.9 660.0, 431.4 1080.0" fill="none" stroke="#5A4031" stroke-width="1.87" opacity="0.19" stroke-linecap="round"/>
+<path d="M 461.3 -80.0 C 516.9 280.0, 374.9 660.0, 424.4 1080.0" fill="none" stroke="#5A4031" stroke-width="1.18" opacity="0.27" stroke-linecap="round"/>
+<path d="M 485.5 -80.0 C 388.8 280.0, 538.2 660.0, 459.6 1080.0" fill="none" stroke="#5A4031" stroke-width="1.92" opacity="0.20" stroke-linecap="round"/>
+<path d="M 496.1 -80.0 C 458.3 280.0, 487.5 660.0, 486.6 1080.0" fill="none" stroke="#5A4031" stroke-width="1.50" opacity="0.18" stroke-linecap="round"/>
+<path d="M 534.9 -80.0 C 432.3 280.0, 644.0 660.0, 533.2 1080.0" fill="none" stroke="#5A4031" stroke-width="1.17" opacity="0.19" stroke-linecap="round"/>
+<path d="M 580.2 -80.0 C 469.3 280.0, 503.6 660.0, 602.8 1080.0" fill="none" stroke="#5A4031" stroke-width="1.49" opacity="0.26" stroke-linecap="round"/>
+<path d="M 621.9 -80.0 C 582.6 280.0, 680.9 660.0, 662.9 1080.0" fill="none" stroke="#5A4031" stroke-width="1.87" opacity="0.24" stroke-linecap="round"/>
+<path d="M 650.5 -80.0 C 546.2 280.0, 581.4 660.0, 660.8 1080.0" fill="none" stroke="#5A4031" stroke-width="1.52" opacity="0.25" stroke-linecap="round"/>
+<path d="M 668.6 -80.0 C 567.7 280.0, 628.3 660.0, 628.2 1080.0" fill="none" stroke="#5A4031" stroke-width="1.67" opacity="0.20" stroke-linecap="round"/>
+<path d="M 714.4 -80.0 C 722.5 280.0, 689.7 660.0, 729.7 1080.0" fill="none" stroke="#5A4031" stroke-width="1.96" opacity="0.21" stroke-linecap="round"/>
+<path d="M 718.3 -80.0 C 799.0 280.0, 671.2 660.0, 770.9 1080.0" fill="none" stroke="#5A4031" stroke-width="1.42" opacity="0.22" stroke-linecap="round"/>
+<text x="400" y="470" fill="#2A1E18" font-family="Georgia, 'Times New Roman', serif" font-size="128" font-weight="400" letter-spacing="6" text-anchor="middle">06</text>
+<line x1="330" y1="510" x2="470" y2="510" stroke="#B89150" stroke-width="1"/>
+<text x="400" y="552" fill="#6B5747" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" letter-spacing="7" text-anchor="middle">COLLECTION</text>
+<text x="400" y="922" fill="#6B5747" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" letter-spacing="3" text-anchor="middle">PRODUCT IMAGE  /  REPLACE IN CMS</text>
+
+</svg>

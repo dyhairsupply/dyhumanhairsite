@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img">
+<defs>
+
+<linearGradient id="fb" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#F5EFE5"/>
+  <stop offset="1" stop-color="#E7DCCA"/>
+</linearGradient>
+
+</defs>
+
+<rect width="1200" height="800" fill="url(#fb)"/>
+<rect x="26" y="26" width="1148" height="748" fill="none" stroke="#DCCDB6" stroke-width="1"/>
+<rect x="36" y="36" width="1128" height="728" fill="none" stroke="#B89150" stroke-width="0.7" opacity="0.4"/>
+<rect x="84.0" y="153.1" width="156.0" height="272.0" fill="none" stroke="#5A4031" stroke-width="1.1" opacity="0.36"/>
+<line x1="162.0" y1="153.1" x2="162.0" y2="425.1" stroke="#5A4031" stroke-width="0.8" opacity="0.25"/>
+<rect x="306.0" y="160.4" width="156.0" height="272.0" fill="none" stroke="#5A4031" stroke-width="1.1" opacity="0.36"/>
+<line x1="384.0" y1="160.4" x2="384.0" y2="432.4" stroke="#5A4031" stroke-width="0.8" opacity="0.25"/>
+<rect x="528.0" y="191.5" width="156.0" height="272.0" fill="none" stroke="#5A4031" stroke-width="1.1" opacity="0.36"/>
+<line x1="606.0" y1="191.5" x2="606.0" y2="463.5" stroke="#5A4031" stroke-width="0.8" opacity="0.25"/>
+<rect x="750.0" y="194.6" width="156.0" height="272.0" fill="none" stroke="#5A4031" stroke-width="1.1" opacity="0.36"/>
+<line x1="828.0" y1="194.6" x2="828.0" y2="466.6" stroke="#5A4031" stroke-width="0.8" opacity="0.25"/>
+<rect x="972.0" y="189.8" width="156.0" height="272.0" fill="none" stroke="#5A4031" stroke-width="1.1" opacity="0.36"/>
+<line x1="1050.0" y1="189.8" x2="1050.0" y2="461.8" stroke="#5A4031" stroke-width="0.8" opacity="0.25"/>
+<line x1="72.0" y1="528.0" x2="1128.0" y2="528.0" stroke="#5A4031" stroke-width="1.2" opacity="0.32"/>
+<line x1="72.0" y1="604.0" x2="1128.0" y2="604.0" stroke="#5A4031" stroke-width="0.8" opacity="0.20"/>
+<line x1="72.0" y1="680.0" x2="1128.0" y2="680.0" stroke="#5A4031" stroke-width="0.8" opacity="0.20"/>
+<path d="M 145.5 -64.0 C 145.4 224.0, 89.5 528.0, 149.8 864.0" fill="none" stroke="#B89150" stroke-width="0.87" opacity="0.16" stroke-linecap="round"/>
+<path d="M 277.8 -64.0 C 283.4 224.0, 211.9 528.0, 249.9 864.0" fill="none" stroke="#B89150" stroke-width="1.33" opacity="0.12" stroke-linecap="round"/>
+<path d="M 358.0 -64.0 C 292.4 224.0, 332.5 528.0, 346.1 864.0" fill="none" stroke="#B89150" stroke-width="1.39" opacity="0.19" stroke-linecap="round"/>
+<path d="M 459.6 -64.0 C 498.9 224.0, 423.7 528.0, 463.0 864.0" fill="none" stroke="#B89150" stroke-width="1.06" opacity="0.16" stroke-linecap="round"/>
+<path d="M 603.5 -64.0 C 593.6 224.0, 595.9 528.0, 594.3 864.0" fill="none" stroke="#B89150" stroke-width="0.84" opacity="0.13" stroke-linecap="round"/>
+<path d="M 688.4 -64.0 C 713.8 224.0, 748.4 528.0, 730.0 864.0" fill="none" stroke="#B89150" stroke-width="1.21" opacity="0.17" stroke-linecap="round"/>
+<path d="M 848.9 -64.0 C 892.2 224.0, 810.8 528.0, 849.0 864.0" fill="none" stroke="#B89150" stroke-width="1.01" opacity="0.12" stroke-linecap="round"/>
+<path d="M 977.5 -64.0 C 1003.7 224.0, 1011.0 528.0, 989.4 864.0" fill="none" stroke="#B89150" stroke-width="0.78" opacity="0.20" stroke-linecap="round"/>
+<path d="M 1044.1 -64.0 C 1107.4 224.0, 1009.3 528.0, 1044.2 864.0" fill="none" stroke="#B89150" stroke-width="1.33" opacity="0.14" stroke-linecap="round"/>
+<rect x="480" y="330" width="240" height="140" fill="#F8F4ED" opacity="0.9"/>
+<rect x="480" y="330" width="240" height="140" fill="none" stroke="#B89150" stroke-width="1.2"/>
+<text x="600" y="405" fill="#2A1E18" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="400" letter-spacing="2" text-anchor="middle">DY</text>
+<text x="600" y="440" fill="#6B5747" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" letter-spacing="4" text-anchor="middle">FACTORY / WORKSHOP PHOTO</text>
+<text x="600" y="736" fill="#6B5747" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" letter-spacing="4" text-anchor="middle">01   ·   REPLACE IN CMS</text>
+
+</svg>

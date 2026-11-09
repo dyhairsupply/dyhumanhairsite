@@ -1,0 +1,20 @@
+{
+  "_说明": "只填要改的项，其余删掉即可；social 里填 remove 表示删除该图标。填好运行：python tools/setup.py --config my-site-info.json",
+  "domain": "https://www.deyuhair.com",
+  "email": "sales@deyuhair.com",
+  "whatsapp_display": "+86 153 1234 5678",
+  "whatsapp_number": "8615312345678",
+  "telephone": "+86 530 123 4567",
+  "address_en": "Deyu Industrial Park, Juancheng County, Heze, Shandong, P.R. China",
+  "address_zh": "中国山东省菏泽市鄄城县德宇发制品产业园",
+  "hours_en": "Monday - Saturday, 08:30 - 18:00 (GMT+8)",
+  "hours_zh": "周一至周六 08:30 - 18:00（北京时间）",
+  "map_embed_url": "",
+  "social": {
+    "facebook": "https://www.facebook.com/yourpage",
+    "instagram": "https://www.instagram.com/yourpage",
+    "youtube": "https://www.youtube.com/@yourchannel",
+    "linkedin": "remove",
+    "tiktok": "https://www.tiktok.com/@yourpage"
+  }
+}

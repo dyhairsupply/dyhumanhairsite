@@ -1,0 +1,572 @@
+# =============================================================================
+# DY Deyu | Decap CMS configuration
+# Every file below is a plain JSON file in /content - no build step, no code.
+# After publishing, Netlify deploys the updated JSON and the site picks it up.
+# =============================================================================
+
+backend:
+  name: git-gateway
+  branch: main
+
+# Enable only for local CMS work (npx decap-server). Ignored in production.
+local_backend: true
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+logo_url: "/images/logo-dy.svg"
+site_url: "https://your-domain.com"
+
+collections:
+
+  # ------------------------------------------------------------------ 1 ---
+  - label: "1 | Site Settings / 站点信息"
+    name: "site_settings"
+    files:
+      - label: "Global Settings (contact, footer, SEO)"
+        name: "global"
+        file: "content/site.json"
+        fields:
+          - { label: "Brand name (EN)", name: brand_en, widget: string, required: false }
+          - { label: "Brand name (CN)", name: brand_zh, widget: string, required: false }
+          - { label: "Full company name (EN)", name: brand_full_en, widget: string, required: false }
+          - { label: "Full company name (CN)", name: brand_full_zh, widget: string, required: false }
+          - { label: "Tagline (EN)", name: tagline_en, widget: string, required: false }
+          - { label: "Tagline (CN)", name: tagline_zh, widget: string, required: false }
+          - { label: "Logo", name: logo, widget: image, required: false }
+          - { label: "Email", name: email, widget: string, required: false }
+          - { label: "WhatsApp display number", name: whatsapp_display, widget: string, required: false }
+          - { label: "WhatsApp digits only (for wa.me link)", name: whatsapp_number, widget: string, required: false, hint: "e.g. 8613800000000" }
+          - { label: "Telephone", name: telephone, widget: string, required: false }
+          - { label: "Address (EN)", name: address_en, widget: string, required: false }
+          - { label: "Address (CN)", name: address_zh, widget: string, required: false }
+          - { label: "Business hours (EN)", name: hours_en, widget: string, required: false }
+          - { label: "Business hours (CN)", name: hours_zh, widget: string, required: false }
+          - { label: "Google Maps embed URL", name: map_embed_url, widget: string, required: false, hint: "Google Maps > Share > Embed a map > copy the src URL. Leave empty to show the placeholder." }
+          - { label: "Static map image (alternative)", name: map_image, widget: image, required: false, hint: "Used when no embed URL is set, e.g. for visitors in mainland China." }
+          - label: "Social links"
+            name: social
+            widget: list
+            required: false
+            summary: "{{fields.platform}}"
+            fields:
+              - { label: "Platform", name: platform, widget: select, required: false, options: [facebook, instagram, youtube, linkedin, whatsapp, tiktok] }
+              - { label: "Profile URL", name: url, widget: string, required: false }
+          - { label: "Copyright line (EN)", name: copyright_en, widget: string, required: false }
+          - { label: "Copyright line (CN)", name: copyright_zh, widget: string, required: false }
+          - { label: "SEO title (EN)", name: seo_title_en, widget: string, required: false }
+          - { label: "SEO title (CN)", name: seo_title_zh, widget: string, required: false }
+          - { label: "SEO description (EN)", name: seo_description_en, widget: text, required: false }
+          - { label: "SEO description (CN)", name: seo_description_zh, widget: text, required: false }
+          - { label: "Live site URL", name: site_url, widget: string, required: false, hint: "Update after binding your own domain." }
+
+  # ------------------------------------------------------------------ 2 ---
+  - label: "2 | Interface Text / 界面双语"
+    name: "interface"
+    files:
+      - label: "All buttons, labels & messages (EN / CN)"
+        name: "ui_labels"
+        file: "content/ui.json"
+        fields:
+          - label: "Interface labels"
+            name: items
+            widget: list
+            summary: "{{fields.key}}"
+            minimize_collapsed: true
+            fields:
+              - { label: "Key (do not change)", name: key, widget: string }
+              - { label: "English", name: en, widget: string, required: false }
+              - { label: "Chinese", name: zh, widget: string, required: false }
+
+  # ------------------------------------------------------------------ 3 ---
+  - label: "3 | Page Copy / 页面文案"
+    name: "pages"
+    files:
+      - label: "Home, Products Hub, Factory, About, Contact"
+        name: "page_copy"
+        file: "content/pages.json"
+        fields:
+
+          # ------------------------------------------------------------ HOME
+          - label: "HOME / 首页"
+            name: home
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - label: "Hero"
+                name: hero
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Headline (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Headline (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Intro (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Intro (CN)", name: body_zh, widget: text, required: false }
+                  - { label: "Hero background image", name: image, widget: image, required: false }
+              - label: "Numbers strip"
+                name: stats
+                widget: object
+                required: false
+                fields:
+                  - label: "Items"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.value}}"
+                    fields:
+                      - { label: "Value", name: value, widget: string, required: false }
+                      - { label: "Label (EN)", name: label_en, widget: string, required: false }
+                      - { label: "Label (CN)", name: label_zh, widget: string, required: false }
+              - label: "Intro / who we are"
+                name: intro
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - { label: "Image", name: image, widget: image, required: false }
+              - label: "Product center section"
+                name: categories
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+              - label: "Why Deyu (4 advantages)"
+                name: advantages
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - label: "Advantages"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.num}} {{fields.title_en}}"
+                    fields:
+                      - { label: "Number", name: num, widget: string, required: false }
+                      - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                      - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                      - { label: "Text (EN)", name: text_en, widget: text, required: false }
+                      - { label: "Text (CN)", name: text_zh, widget: text, required: false }
+              - label: "Production process (shared with Factory page)"
+                name: process
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - label: "Stages"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.num}} {{fields.title_en}}"
+                    fields:
+                      - { label: "Number", name: num, widget: string, required: false }
+                      - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                      - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                      - { label: "Text (EN)", name: text_en, widget: text, required: false }
+                      - { label: "Text (CN)", name: text_zh, widget: text, required: false }
+              - label: "Hair origins (3 materials)"
+                name: materials
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - label: "Origins"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.name_en}}"
+                    fields:
+                      - { label: "Name (EN)", name: name_en, widget: string, required: false }
+                      - { label: "Name (CN)", name: name_zh, widget: string, required: false }
+                      - { label: "Text (EN)", name: text_en, widget: text, required: false }
+                      - { label: "Text (CN)", name: text_zh, widget: text, required: false }
+                      - { label: "Image", name: image, widget: image, required: false }
+              - label: "Factory teaser"
+                name: factory_teaser
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - { label: "Image", name: image, widget: image, required: false }
+              - label: "Closing banner"
+                name: cta_band
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+
+          # --------------------------------------------------- PRODUCTS HUB
+          - label: "PRODUCTS HUB / 产品中心"
+            name: products_hub
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+              - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+              - { label: "Title (EN)", name: title_en, widget: string, required: false }
+              - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+              - { label: "Body (EN)", name: body_en, widget: text, required: false }
+              - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+
+          # --------------------------------------------------------- FACTORY
+          - label: "FACTORY / 工厂实力"
+            name: factory
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - label: "Page hero"
+                name: hero
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+              - { label: "Factory profile (EN)", name: profile_en, widget: text, required: false, hint: "Separate paragraphs with a blank line." }
+              - { label: "Factory profile (CN)", name: profile_zh, widget: text, required: false }
+              - label: "Factory numbers"
+                name: stats
+                widget: object
+                required: false
+                fields:
+                  - label: "Items"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.value}}"
+                    fields:
+                      - { label: "Value", name: value, widget: string, required: false }
+                      - { label: "Label (EN)", name: label_en, widget: string, required: false }
+                      - { label: "Label (CN)", name: label_zh, widget: string, required: false }
+              - label: "Factory environment gallery"
+                name: environment
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - label: "Photos"
+                    name: images
+                    widget: list
+                    required: false
+                    summary: "{{fields.caption_en}}"
+                    fields:
+                      - { label: "Photo", name: image, widget: image, required: false }
+                      - { label: "Caption (EN)", name: caption_en, widget: string, required: false }
+                      - { label: "Caption (CN)", name: caption_zh, widget: string, required: false }
+              - label: "Workshop photos / 车间实拍"
+                name: workshop
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - label: "Photos"
+                    name: images
+                    widget: list
+                    required: false
+                    summary: "{{fields.caption_en}}"
+                    fields:
+                      - { label: "Photo", name: image, widget: image, required: false }
+                      - { label: "Caption (EN)", name: caption_en, widget: string, required: false }
+                      - { label: "Caption (CN)", name: caption_zh, widget: string, required: false }
+              - label: "Quality control"
+                name: quality
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - label: "Checks"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.num}} {{fields.title_en}}"
+                    fields:
+                      - { label: "Number", name: num, widget: string, required: false }
+                      - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                      - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                      - { label: "Text (EN)", name: text_en, widget: text, required: false }
+                      - { label: "Text (CN)", name: text_zh, widget: text, required: false }
+              - label: "Closing banner"
+                name: cta_band
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+
+          # ----------------------------------------------------------- ABOUT
+          - label: "ABOUT US / 关于我们"
+            name: about
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - label: "Page hero"
+                name: hero
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+              - { label: "Brand story (EN)", name: story_en, widget: text, required: false, hint: "Separate paragraphs with a blank line." }
+              - { label: "Brand story (CN)", name: story_zh, widget: text, required: false }
+              - { label: "Story image", name: image, widget: image, required: false }
+              - label: "Milestones"
+                name: milestones
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - label: "Items"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.year}}"
+                    fields:
+                      - { label: "Year", name: year, widget: string, required: false }
+                      - { label: "Text (EN)", name: text_en, widget: text, required: false }
+                      - { label: "Text (CN)", name: text_zh, widget: text, required: false }
+              - label: "Why partners stay"
+                name: advantages
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+                  - label: "Advantages"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.num}} {{fields.title_en}}"
+                    fields:
+                      - { label: "Number", name: num, widget: string, required: false }
+                      - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                      - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                      - { label: "Text (EN)", name: text_en, widget: text, required: false }
+                      - { label: "Text (CN)", name: text_zh, widget: text, required: false }
+              - label: "How we work"
+                name: values
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - label: "Values"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.num}} {{fields.title_en}}"
+                    fields:
+                      - { label: "Number", name: num, widget: string, required: false }
+                      - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                      - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                      - { label: "Text (EN)", name: text_en, widget: text, required: false }
+                      - { label: "Text (CN)", name: text_zh, widget: text, required: false }
+              - label: "Closing banner"
+                name: cta_band
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+
+          # --------------------------------------------------------- CONTACT
+          - label: "CONTACT / 联系我们"
+            name: contact
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - label: "Page hero"
+                name: hero
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+              - { label: "Map note (EN)", name: map_note_en, widget: text, required: false }
+              - { label: "Map note (CN)", name: map_note_zh, widget: text, required: false }
+              - label: "Before you write"
+                name: prepare
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - label: "Items"
+                    name: items
+                    widget: list
+                    required: false
+                    summary: "{{fields.num}} {{fields.title_en}}"
+                    fields:
+                      - { label: "Number", name: num, widget: string, required: false }
+                      - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                      - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                      - { label: "Text (EN)", name: text_en, widget: text, required: false }
+                      - { label: "Text (CN)", name: text_zh, widget: text, required: false }
+              - label: "Closing banner"
+                name: cta_band
+                widget: object
+                required: false
+                fields:
+                  - { label: "Eyebrow (EN)", name: eyebrow_en, widget: string, required: false }
+                  - { label: "Eyebrow (CN)", name: eyebrow_zh, widget: string, required: false }
+                  - { label: "Title (EN)", name: title_en, widget: string, required: false }
+                  - { label: "Title (CN)", name: title_zh, widget: string, required: false }
+                  - { label: "Body (EN)", name: body_en, widget: text, required: false }
+                  - { label: "Body (CN)", name: body_zh, widget: text, required: false }
+
+  # ------------------------------------------------------------------ 4 ---
+  - label: "4 | Product Categories / 产品分类"
+    name: "categories"
+    files:
+      - label: "Category cards"
+        name: "category_list"
+        file: "content/categories.json"
+        fields:
+          - label: "Categories"
+            name: items
+            widget: list
+            summary: "{{fields.num}} {{fields.name_en}}"
+            minimize_collapsed: true
+            hint: "The slug must stay unique and match the Category field on products."
+            fields:
+              - { label: "Slug (URL part, do not change)", name: slug, widget: string }
+              - { label: "Number", name: num, widget: string, required: false }
+              - { label: "Name (EN)", name: name_en, widget: string, required: false }
+              - { label: "Name (CN)", name: name_zh, widget: string, required: false }
+              - { label: "Subtitle (EN)", name: subtitle_en, widget: string, required: false }
+              - { label: "Subtitle (CN)", name: subtitle_zh, widget: string, required: false }
+              - { label: "Card description (EN)", name: description_en, widget: text, required: false }
+              - { label: "Card description (CN)", name: description_zh, widget: text, required: false }
+              - { label: "Collection intro (EN)", name: intro_en, widget: text, required: false }
+              - { label: "Collection intro (CN)", name: intro_zh, widget: text, required: false }
+              - { label: "Category image", name: image, widget: image, required: false }
+              - { label: "Display order", name: order, widget: number, required: false }
+
+  # ------------------------------------------------------------------ 5 ---
+  - label: "5 | Products / 产品目录"
+    name: "products"
+    files:
+      - label: "All products (add, edit, delete)"
+        name: "catalog"
+        file: "content/products.json"
+        fields:
+          - label: "Products"
+            name: items
+            widget: list
+            summary: "{{fields.id}} - {{fields.name_en}}"
+            minimize_collapsed: true
+            hint: "12 products are shown per page automatically. Add a product here and pagination updates itself."
+            fields:
+              - { label: "Product code (unique URL slug)", name: id, widget: string, hint: "e.g. DY-WG-061" }
+              - { label: "Category slug", name: category, widget: string, required: false, hint: "Must match a slug from Product Categories. Current slugs: wigs, closures, frontals, extensions, wefts, ponytails. You can add a new slug there without touching code." }
+              - { label: "Product name (EN)", name: name_en, widget: string, required: false }
+              - { label: "Product name (CN)", name: name_zh, widget: string, required: false }
+              - { label: "Hair material", name: material, widget: select, required: false, options: [{ label: "Burmese Hair / 缅甸发", value: burmese }, { label: "Yunnan Hair / 云南发", value: yunnan }, { label: "Vietnamese Hair / 越南发", value: vietnamese }] }
+              - { label: "Short summary (EN)", name: summary_en, widget: text, required: false }
+              - { label: "Short summary (CN)", name: summary_zh, widget: text, required: false }
+              - { label: "Description (EN)", name: description_en, widget: text, required: false }
+              - { label: "Description (CN)", name: description_zh, widget: text, required: false }
+              - { label: "Texture (EN)", name: texture_en, widget: string, required: false }
+              - { label: "Texture (CN)", name: texture_zh, widget: string, required: false }
+              - { label: "Length", name: length, widget: string, required: false }
+              - { label: "Colour (EN)", name: colour_en, widget: string, required: false }
+              - { label: "Colour (CN)", name: colour_zh, widget: string, required: false }
+              - { label: "Construction (EN)", name: construction_en, widget: string, required: false }
+              - { label: "Construction (CN)", name: construction_zh, widget: string, required: false }
+              - { label: "Net weight (EN)", name: weight_en, widget: string, required: false }
+              - { label: "Net weight (CN)", name: weight_zh, widget: string, required: false }
+              - { label: "Hair grade (EN)", name: grade_en, widget: string, required: false }
+              - { label: "Hair grade (CN)", name: grade_zh, widget: string, required: false }
+              - label: "Product images (first one is the card image)"
+                name: images
+                widget: list
+                required: false
+                field: { label: "Image", name: image, widget: image, required: false }
+              - { label: "Product video (upload MP4)", name: video, widget: file, required: false }
+              - { label: "Video URL (YouTube or MP4 link, overrides upload)", name: video_url, widget: string, required: false }
+              - { label: "Video cover image", name: video_poster, widget: image, required: false }

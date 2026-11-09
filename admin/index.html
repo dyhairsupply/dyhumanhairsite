@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DY Deyu | Content Manager</title>
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+  <!-- Netlify Identity handles CMS login / invites (Git Gateway backend) -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    html, body { margin: 0; height: 100%; }
+    #nc-root { min-height: 100%; }
+  </style>
+</head>
+<body>
+  <!-- Decap CMS (formerly Netlify CMS), loaded from CDN. No build step. -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // Use the site's own stylesheet inside editorial previews.
+    if (window.CMS) {
+      CMS.registerPreviewStyle("/css/style.css");
+    }
+    // Invite / recovery links land on /admin/ with a token in the hash.
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function (user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function () {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>
